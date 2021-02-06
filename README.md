@@ -20,11 +20,13 @@ Iam using haar_cascade based detection the reason i chose because it takes short
 ##### Training 
 These are the commands to training custom caascades
 
-'''
--data <cascade_dir_name> ''' : Where the trained classifier should be stored. This folder should be created manually beforehand.
--vec <vec_file_name> : vec-file with positive samples (created by opencv_createsamples utility).
--bg <background_file_name> : Background description file. This is the file containing the negative sample images.
--numPos <number_of_positive_samples> : Number of positive samples used in training for every classifier stage.
--numNeg <number_of_negative_samples> : Number of negative samples used in training for every classifier stage.
--numStages <number_of_stages> : Number of cascade stages to be trained.
-'''
+```
+datay <cascade_dir_name>  : Where the trained classifier should be stored. This folder should be created manually beforehand.
+vec <vec_file_name> : vec-file with positive samples (created by opencv_createsamples utility).
+bg <background_file_name> : Background description file. This is the file containing the negative sample images.
+numPos <number_of_positive_samples> : Number of positive samples used in training for every classifier stage.
+numNeg <number_of_negative_samples> : Number of negative samples used in training for every classifier stage.
+numStages <number_of_stages> : Number of cascade stages to be trained.
+```
+Here positve sample is only peoples and negatives are rest of other object in the images
+Training is completed in lest than 15 minutes for 25 stages
