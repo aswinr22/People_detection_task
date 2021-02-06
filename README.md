@@ -1,6 +1,6 @@
 # People_detection_task
 
-This is TAsk project based o opencv haar_caascade
+#### This task project based on opencv haar_caascade
 
 ## problem
 Take the aerial image attached. Detect and count the human in the image.
