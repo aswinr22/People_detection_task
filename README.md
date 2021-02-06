@@ -34,5 +34,10 @@ Training is completed in lest than 15 minutes for 25 stages
 #### post training
 ##### 1.Create blank image with same size and shape as of original 
 ##### 2.Draw bounding boxes on black image 
-##### 3.Blend it with original image for final output and it looks like this
+##### 3.Blend it with original image using opencv `addedWeight()`function for final output and it looks like this.
 ![alt text](https://github.com/aswinr22/People_detection_task/blob/main/detection.png)
+
+#### IOU Calculation
+Generated ground thruth values :`(887,1530,958,1629),(1228,1668,1291,1770),(204,1662,285,1768),(3900,1838,3948,1947),(3543,1881,3617,2021),(2530,1179,2593,1245),(3200,1129,3238,1189),(2278,2395,2366,2488),(3595,1272,3633,1349),(1129,1735,1184,1834),(1504,1334,1558,1411),(3774,1265,3823,1337),(3224,1439,3284,1526),(3557,1258,3601,1333),(3494,1269,3545,1339),(3601,1370,3653,1445),(3520,1805,3600,1885),(1400,1648,1469,1749),(3500,1437,3579,1532),(2683,1379,2728,1458)`
+
+#### Now getting good IOU value is bit challeging for me because the detection is in single image with multiple objects so detection order might change and it ruins the iou calculations so i couldnt find a better soultion for that till now but calculation is done and can be seen while running on cmd. 
