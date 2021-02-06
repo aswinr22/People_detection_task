@@ -1,6 +1,7 @@
 # People_detection_task
 
 #### This task project based on opencv haar_caascade
+run `python people_detection_task.py`
 
 ## problem
 Take the aerial image attached. Detect and count the human in the image.
