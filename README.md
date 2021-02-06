@@ -35,3 +35,4 @@ Training is completed in lest than 15 minutes for 25 stages
 ##### 1.Create blank image with same size and shape as of original 
 ##### 2.Draw bounding boxes on black image 
 ##### 3.Blend it with original image for final output and it looks like this
+![alt text](https://github.com/aswinr22/People_detection_task/blob/main/detection.png)
