@@ -13,7 +13,7 @@ is not pre-labeled so candidate can generate the ground truth).
 ![alt text](https://github.com/aswinr22/People_detection_task/blob/main/cropped.png)
 
 
-##### 2.Crop peoples images from aerial image for train
+##### 2.Crop peoples images from aerial image for training
 
 #### Model
 Iam using haar_cascade based detection the reason i chose because it takes short amount of time to train as well as detection and the catch is it won't overload the cpu.
@@ -34,7 +34,7 @@ Training is completed in lest than 15 minutes for 25 stages
 
 #### post training
 ##### 1.Create blank image with same size and shape as of original 
-##### 2.Draw bounding boxes on black image 
+##### 2.Draw bounding boxes on blank image 
 ##### 3.Blend it with original image using opencv `addedWeight()`function for final output and it looks like this.
 ![alt text](https://github.com/aswinr22/People_detection_task/blob/main/detection.png)
 
