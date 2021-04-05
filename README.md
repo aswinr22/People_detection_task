@@ -7,6 +7,7 @@ run `python people_detection_task.py`
 Take the aerial image attached. Detect and count the human in the image.
 Compute net average IOU of the detections against the ground truth (Image
 is not pre-labeled so candidate can generate the ground truth).
+![alt text](https://github.com/aswinr22/People_detection_task/blob/main/Task-2.jpg)
 
 ## Approach
  1.First Select ROI so here iam masking unwated areas from the image and output look like this
