@@ -1,4 +1,4 @@
-# People_detection_task
+# Aerial People_detection_task
 
 #### This task project based on opencv haar_caascade
 run `python people_detection_task.py`
